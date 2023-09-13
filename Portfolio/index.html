@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Harshal-Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="./mediaqueries.css"
+    />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <!-- *  DEESKTOP NAVIGATION BAR ------------------------------ -->
+    <nav id="desktop-nav">
+      <div class="logo">Harshal</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projetcs">Project</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- * MOBILE SCREEN NAVIGATION BAR WITH  -->
+    <nav id="hamburger-nav">
+      <div class="logo">Harshal</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projetcs" onclick="toggleMenu()">Project</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+
+    <!--* PROFILE-SECTION -->
+    <section id="profile">
+      <div class="section_pic-container">
+        <img src="./assets/profile-pic.png" alt="" />
+      </div>
+      <div class="section_text">
+        <p class="section_text-p1">Hello,I'm</p>
+        <h1 class="title">Harshalnath</h1>
+        <p class="section_text-p2">Frontend Developer</p>
+        <div class="btn-container">
+          <button class="btn btn-color-2">Download CV</button>
+          <button class="btn btn-color-1" onclick="location.href('./#contact')">
+            contact Info
+          </button>
+        </div>
+        <div id="social-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="linkednlogo"
+            class="icon"
+            onclick="location.href('https://www.linkedin.com/in/harshal-nath')"
+          />
+          <img
+            src="./assets/github.png"
+            alt="linkednlogo"
+            class="icon"
+            onclick="location.href('https://github.com/HarshalNath')"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- * ABOUT SECTION -->
+    <section id="about">
+      <p class="section_text-p1">Get to know more</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section_pic-container">
+          <img
+            src="./assets/about-pic.png"
+            alt="profile-pic"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="experience"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>
+                Intermediate <br />
+                Frontend Developer
+              </p>
+            </div>
+            <div class="details-container">
+              <img src="./assets/education.png" alt="education" class="icon" />
+              <h3>Education</h3>
+              <p>B.Sc Computer Science</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              👋 Hey there! I'm Harshal, a passionate Frontend Developer. I'm
+              all about creating engaging web experiences that blend
+              cutting-edge technology with eye-catching design. Proficient in
+              HTML, CSS, and JavaScript, I transform ideas into visually
+              stunning and user-friendly websites. I'm an advocate for web
+              accessibility, believing that inclusivity is essential. With an
+              eye for detail and a commitment to excellence, I'm here to turn
+              your web projects into digital masterpieces that leave a lasting
+              impression. Let's craft something amazing together! 💻🎨🚀
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="arrowpic"
+        class="icon arrow"
+        onclick="location.href('./experience')"
+      />
+    </section>
+    <script src="./srcipt.js"></script>
+  </body>
+</html>
+
+<!-- todo -->
+<!-- - navigation bar -->
+<!-- - hamburger menu -->
+<!-- - main profile -->
+<!-- ! about and experience section -->
