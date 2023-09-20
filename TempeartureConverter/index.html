@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Tempearture Converter</title>
+    <link rel="icon" type="image/x-icon" href="./pngwing.com (1).png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./styles.css" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <div class="main-container">
+      <p class="title">Please enter Temperature</p>
+      <div class="temperature-box">
+        <div class="celsius">
+          <p>Celsius</p>
+          <input type="number" id="celsius" oninput="cellTofar()" />
+        </div>
+        <div class="fahrenheit">
+          <p>Fahrenheit</p>
+          <input type="number" id="fahrenheit" oninput="farTocell()" />
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

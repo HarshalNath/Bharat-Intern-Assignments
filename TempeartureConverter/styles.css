@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Comfortaa", cursive;
+}
+.main-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3a86ff;
+  flex-direction: column;
+}
+.title {
+  font-size: 35px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.temperature-box {
+  background-color: white;
+  padding-inline: 3rem;
+  padding-block: 3rem;
+  border-radius: 9px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+.temperature-box p {
+  font-weight: 600;
+  font-size: 22px;
+}
+.temperature-box input {
+  margin-top: 1rem;
+  border: 2px #ccc solid;
+  padding-block: 0.9rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  outline: none;
+  font-weight: 700;
+}
+.temperature-box input:focus {
+  border-color: #3a86ff;
+}
+.celsius {
+}
+.farenheit {
+}
